@@ -12,15 +12,18 @@ import Dashboard from "../pages/Admin/dashboard/Dashboard";
 import Home from "../pages/AppComponents/home/Home";
 import LoginHome from "../pages/AppComponents/login/Login";
 import Register from "../pages/AppComponents/login/Register";
+import User from "../pages/AppComponents/User";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path="*" element={<Error404 />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/user" element={<User />} />
       <Route path="/signin" element={<LoginHome />} />
       <Route path="/register" element={<Register />} />
       <Route path="/" element={<Home />} />
+      
       <Route
         path="/admin"
         element={
