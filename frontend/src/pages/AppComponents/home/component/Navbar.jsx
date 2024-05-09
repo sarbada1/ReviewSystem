@@ -3,6 +3,7 @@ import { SearchComponent } from './Search';
 import { Button, Flex } from 'antd';
 import { Link, useLocation } from 'react-router-dom';
 import { useAuth0 } from "@auth0/auth0-react";
+import { Logo } from './Logo';
 
 export const Navbar = () => {
   const { loginWithRedirect } = useAuth0();
@@ -12,6 +13,8 @@ console.log(location);
 
   const navbarStyle = {
     color: isHome ? '#fff' : 'black',
+    marginLeft:'10%',
+  
   };
   const loginStyle = {
     color: isHome ? '#fff' : 'black',
@@ -21,6 +24,7 @@ console.log(location);
   return (
     <>
       <Flex wrap="wrap" gap="small" >
+     <Logo/>
         <SearchComponent />
         <Button type="link" style={navbarStyle}>
           Write a review

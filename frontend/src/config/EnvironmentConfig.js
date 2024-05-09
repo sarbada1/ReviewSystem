@@ -1,16 +1,18 @@
 const dev = {
   API_ENDPOINT_URL: "http://localhost:8080",
-  MEDIA_ENDPOINT_URL: "",
+  MEDIA_ENDPOINT_URL: "", 
+ CLIENT_ID:'xHHqmMBVyUoqPvH8bJBeZnnb1MFCmWzR',
+ DOMAIN_ID:'dev-ceffpcgty5q0173w.us.auth0.com',
 };
 
 const prod = {
   API_ENDPOINT_URL: "",
   MEDIA_ENDPOINT_URL: "",
+  CLIENT_ID:'xHHqmMBVyUoqPvH8bJBeZnnb1MFCmWzR',
+  DOMAIN_ID:'dev-ceffpcgty5q0173w.us.auth0.com',
 };
 
 const NODE_ENV = "development";
-const REACT_APP_FB_APP_ID='779131100856874';
-const REACT_APP_GG_APP_ID='214562830543-ansop247kn34gotphasuh29poq5jdrob.apps.googleusercontent.com';
 
 
 const getEnv = () => {
@@ -22,6 +24,7 @@ const getEnv = () => {
     default:
       break;
   }
+  
 };
 
 export const env = getEnv();

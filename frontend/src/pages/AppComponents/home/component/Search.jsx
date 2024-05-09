@@ -7,8 +7,7 @@ const onSearch = (value, _e, info) => console.log(info?.source, value);
 export const SearchComponent = () => {
   return (
 <>
-
-<Search placeholder="input search text" onSearch={onSearch} enterButton style={{ width: 800 }} />
+<Search placeholder="input search text" onSearch={onSearch} enterButton style={{ width: 800,marginLeft:'10%' }} />
 
 
 

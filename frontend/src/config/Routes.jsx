@@ -11,7 +11,6 @@ import AdminLayout from "../pages/Admin/components/AdminLayout";
 import Dashboard from "../pages/Admin/dashboard/Dashboard";
 import Home from "../pages/AppComponents/home/Home";
 import LoginHome from "../pages/AppComponents/login/Login";
-import Register from "../pages/AppComponents/login/Register";
 import UserDetails from "../pages/AppComponents/user_details/UserDetails";
 
 export const router = createBrowserRouter(
@@ -20,7 +19,6 @@ export const router = createBrowserRouter(
       <Route path="*" element={<Error404 />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signin" element={<LoginHome />} />
-      <Route path="/register" element={<Register />} />
       <Route path="/user_details" element={<UserDetails />} />
       <Route path="/" element={<Home />} />
       <Route

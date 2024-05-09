@@ -5,7 +5,7 @@
 
 .container {
   margin: 75px auto;
-  width: 70%;
+  width: 90%;
 }
 .center {
   text-align: center;
@@ -37,3 +37,9 @@
   margin-right: 20px;
 }
 
+.profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,18 +1,14 @@
-// import React from 'react'
 
-// export default function Logo() {
-//   return (
-//     <>
-//         <img src="/images/logo.png" alt="" />
-//     </>
-//   )
-// }
 
 
 import React from 'react'
+import "../css/Home.css"
 
 export const Logo = () => {
   return (
+    <div className="logo">
+
         <img src="/images/logo.png" alt="" />
+    </div>
 )
 }

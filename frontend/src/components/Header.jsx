@@ -5,8 +5,9 @@ import { Navbar } from '../pages/AppComponents/home/component/Navbar';
 const navbarStyle = {
   position: 'absolute',
   top: '40px',
-  left: '20%',
+  left: '5%',
   zIndex: '999',
+  width:'100%'
 };
 
 const hrStyle = {

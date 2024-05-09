@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../../../components/Header'
+import HeaderComponent from '../../../components/Header'
 import UserInfo from './components/UserInfo'
 
 export default function UserDetails() {
   return (
     <>
     
-    <Header/>
+    <HeaderComponent/>
     <UserInfo/>
     </>
   )

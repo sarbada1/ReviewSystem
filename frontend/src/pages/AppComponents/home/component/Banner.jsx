@@ -13,15 +13,16 @@ const contentStyle = {
   height: '660px',
   color: '#fff',
   lineHeight: '160px',
-  textAlign: 'center',
+  // textAlign: 'center',
   background: '#364d79',
 };
 
 const navbarStyle = {
   position: 'absolute',
   top: '40px',
-  left: '20%',
-  zIndex: '999'
+  left: '5%',
+  zIndex: '999',
+  width:'100%'
 };
 
 const imgStyle = {
